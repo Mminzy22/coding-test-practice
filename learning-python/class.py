@@ -23,5 +23,5 @@ age = int(input("나이: "))
 gender = input("성별 (male/female): ").lower()
 
 person = Person(name, age, gender)
-display(person)
+display(person) # 주피터 노트북 사용
 person.greet()
