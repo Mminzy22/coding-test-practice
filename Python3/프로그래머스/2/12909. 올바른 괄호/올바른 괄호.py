@@ -1,8 +1,8 @@
 def solution(s):
     print(s)
     an = 0
-    for c in s:
-        if c == '(':
+    for i in range(len(s)):
+        if s[i] == '(':
             an += 1
         else:
             an -= 1
