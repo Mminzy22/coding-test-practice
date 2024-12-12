@@ -1,6 +1,5 @@
 def solution(s):
-    count = 0
-    zeros = 0
+    count, zeros = 0, 0
     while '1' != s:
         zeros += s.count('0')
         s = s.replace('0','')
