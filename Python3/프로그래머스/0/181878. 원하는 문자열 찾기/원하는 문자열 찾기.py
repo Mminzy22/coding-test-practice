@@ -1,3 +1,3 @@
 def solution(myString, pat):
-    answer = 1 if str.upper(pat) in str.upper(myString) else 0
+    answer = 1 if pat.upper() in myString.upper() else 0
     return answer
